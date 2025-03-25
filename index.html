@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Demonstration for github-rpg-contributors">
+
+  <style>
+    :root, html, body {
+      margin: 0;
+      padding: 0;
+    }
+    #demo {
+      margin: var(--ddd-spacing-2);
+    }
+    github-rpg-contributors {
+      margin: var(--ddd-spacing-3);
+      border: var(--ddd-border-md);
+      border-radius: var(--ddd-radius-lg);
+    }
+    h1 {
+      margin: var(--ddd-spacing-2);
+      font-size: var(--ddd-font-size-2xl);
+      text-align: center;
+    }
+
+
+  </style>
+  <title>github-rpg-contributors</title>
+</head>
+
+<body>
+  <div id="demo">
+    
+    <h1>Github RPG Contributors</h1>
+    <github-rpg-contributors org="haxtheweb" repo="webcomponents" limit="24"></github-rpg-contributors>
+    <github-rpg-contributors org="ProdByBobo" repo="rpg-character" limit="4"></github-rpg-contributors>
+  <script type="module" src="./github-rpg-contributors.js"></script>
+  </div>
+</body>
+</html>
